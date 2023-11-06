@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:movies_app/services/movie_service.dart';
 import 'package:movies_app/utils/functions.dart';
-
-import '../models/movie.dart';
-import '../screens/movie_detail.dart';
+import 'package:movies_app/models/movie.dart';
+import 'package:movies_app/screens/movie_detail.dart';
 
 
 class MovieList extends StatefulWidget {
