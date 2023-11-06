@@ -7,7 +7,7 @@ import 'package:movies_app/models/movie.dart';
 import 'package:movies_app/shared/result.dart';
 
 class MovieService{
-  //https://api.themoviedb.org/3/movie/100?api_key=3cae426b920b29ed2fb1c0749f258325
+  //https://api.themoviedb.org/3/movie/popular?page=10&api_key=3cae426b920b29ed2fb1c0749f258325
   final String baseUrl='https://api.themoviedb.org/3/movie/';
   final String _page = '?page=';
   final String _apiKey='&api_key=3cae426b920b29ed2fb1c0749f258325';
